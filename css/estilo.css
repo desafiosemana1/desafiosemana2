@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #212223;
+    color: #ffffff;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+#titulo {
+    color: #292935;
+    padding-top: 16%;
+    font-size: 70px;
+    line-height: 0.8;
+}
+#subtitulo {
+    color: #212223;
+    padding-top: -2%;
+    margin-top: -2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-top: 3px solid #212223;
+}
+#botao {
+    width: 10%;
+}
+#logoprojeto {
+    width: 65%;
+    padding-left: 30%;
+    border: 8px solid #ffffff;  
+    position: relative; 
+}
+#ODS9 {
+    height: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#imgods9 {
+width: 90%;
+padding-left: 20%;
+padding-top: -100%;
+}
+#cenario {
+    background-color: #ffffff;
+    width: 90%;
+    background-size: cover;
+    background-position: 50%;
+    padding-bottom: 10%;
+} 
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #c9dfee;
+}
+#background {
+    background-color: #f5f8fd;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+.destaque {
+    background-color: #ffffff;
+}
+.destaque2 {
+    background-color: #f5f8fd;
+}
+.coluna {
+    float: left;
+    padding: 2%;
+    position: relative;
+}
+.dois {
+    width: 40%
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.textods9 {
+    text-align: justify;
+    padding-left: 13%;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    margin: 0 0 30px 0;
+}
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 0 0 21px 0;
+}
+h5 {
+    font-size: 15;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin: 0px 50px 0px 0px;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0 19px 0;
+}
+footer {
+    background-color: #212223;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0 50px 0;
+    color: #fff;
+    height: 76%;
+  }
+  footer .container {
+    padding: 30px 0 50px 0;
+  }
